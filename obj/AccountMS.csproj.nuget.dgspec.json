@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hacka\\Desktop\\BankApp\\AccountMS\\AccountMS.csproj": {}
+    "C:\\Users\\hacka\\Desktop\\RulesMS\\AccountMS\\AccountMS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hacka\\Desktop\\BankApp\\AccountMS\\AccountMS.csproj": {
+    "C:\\Users\\hacka\\Desktop\\RulesMS\\AccountMS\\AccountMS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hacka\\Desktop\\BankApp\\AccountMS\\AccountMS.csproj",
+        "projectUniqueName": "C:\\Users\\hacka\\Desktop\\RulesMS\\AccountMS\\AccountMS.csproj",
         "projectName": "AccountMS",
-        "projectPath": "C:\\Users\\hacka\\Desktop\\BankApp\\AccountMS\\AccountMS.csproj",
+        "projectPath": "C:\\Users\\hacka\\Desktop\\RulesMS\\AccountMS\\AccountMS.csproj",
         "packagesPath": "C:\\Users\\hacka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hacka\\Desktop\\BankApp\\AccountMS\\obj\\",
+        "outputPath": "C:\\Users\\hacka\\Desktop\\RulesMS\\AccountMS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hacka\\AppData\\Roaming\\NuGet\\NuGet.Config",

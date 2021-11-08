@@ -27,6 +27,7 @@ namespace AccountMS.Services
             accountStatement.TransactionType = transactionType;
             accountStatement.TransactionStatus = status;
             accountStatement.ClosingBalance = closingBalance;
+
             _Context.AccountStatements.Add(accountStatement);
             _Context.SaveChanges();
         }

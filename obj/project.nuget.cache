@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cIatBvP2QjYWkNOGi2Tu5rjZEkRqyLbqQvpAuORmEDMyvuguHHR0xtwQxG1pz+uHvlpkM4n3loW6VTkquKZ0QA==",
+  "dgSpecHash": "HJbMY9TEDpzqfRqNbMSPjrzq/ONdtQI93RxR1NHJ+bi6Gogy8x7qgZmx0/1lCseJPkg3tqFBb2g3UCZFc2fFmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hacka\\Desktop\\BankApp\\AccountMS\\AccountMS.csproj",
+  "projectFilePath": "C:\\Users\\hacka\\Desktop\\RulesMS\\AccountMS\\AccountMS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hacka\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hacka\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
