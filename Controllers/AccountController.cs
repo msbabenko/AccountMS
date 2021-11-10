@@ -30,13 +30,13 @@ namespace AccountMS.Controllers
 
         // GET api/<AccountController>/5
         [HttpGet("{accountId}")]
-        public async Task<AccountDTO> Get(int accountId)
+        public async Task<ActionResult<AccountDTO>> Get(int accountId)
         {
             return _service.GetAccount(accountId);
         }
         //[Route("GetAccounts")]
         [HttpGet("GetAccounts/{customerid}")]
-        public async Task<IList<Account>> Getb(int customerid)
+        public async Task<ActionResult<List<Account>>> Getb(int customerid)
         {
             return _service.GetCustomerAccounts(customerid);
         }
@@ -49,7 +49,7 @@ namespace AccountMS.Controllers
 
         [Route("getAccountStatement")]
         [HttpPost]
-        public async Task<IList<AccountStatement>> AccountStatement(StatementDTO statementDTO)
+        public async Task<ActionResult<List<AccountStatement>>> AccountStatement(StatementDTO statementDTO)
         {
             return _service.GetAccountStatement(statementDTO);
         }
@@ -57,7 +57,7 @@ namespace AccountMS.Controllers
         // POST api/<AccountController>
         [Route("CreateAccount")]
         [HttpPost]
-        public async Task<string> Post([FromBody] AccountDTO customerId)
+        public async Task<ActionResult<string>> Post([FromBody] AccountDTO customerId)
         {
             return  _service.CreateAccount(customerId);
 

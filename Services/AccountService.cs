@@ -76,16 +76,16 @@ namespace AccountMS.Services
             return accountDTO;
         }
 
-        public IList<Account> GetCustomerAccounts(int customerId)
+        public List<Account> GetCustomerAccounts(int customerId)
         {
-            IList<Account> accounts = _Context.Accounts.Where(i => i.CustomerId == customerId).ToList();
+            List<Account> accounts = _Context.Accounts.Where(i => i.CustomerId == customerId).ToList();
             
             return accounts;
         }
 
-        public IList<AccountStatement> GetAccountStatement(StatementDTO statementDTO)
+        public List<AccountStatement> GetAccountStatement(StatementDTO statementDTO)
         {
-            IList<AccountStatement> accountStatements = null;
+            List<AccountStatement> accountStatements = null;
             accountStatements= _Context.AccountStatements.Where(i => i.AccountId == statementDTO.AccountId && i.TransactionDate >= statementDTO.FromDate && i.TransactionDate <= statementDTO.ToDate).ToList();
             //from c in accountStatements
             //orderby c.TransactionId

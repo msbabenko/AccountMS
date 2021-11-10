@@ -9,9 +9,9 @@ namespace AccountMS.Services
     public interface IAccountService
     {
         public string CreateAccount(AccountDTO customerId);
-        public IList<Account> GetCustomerAccounts(int customerId);
+        public List<Account> GetCustomerAccounts(int customerId);
         public AccountDTO GetAccount(int AccountId);
-        public IList<AccountStatement> GetAccountStatement(StatementDTO statementDTO);
+        public List<AccountStatement> GetAccountStatement(StatementDTO statementDTO);
 
 
     }
