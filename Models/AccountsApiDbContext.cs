@@ -54,7 +54,7 @@ namespace AccountMS.Models
                     .HasMaxLength(100)
                     .IsUnicode(false);
 
-                entity.Property(e => e.TransactionDate).HasColumnType("date");
+                entity.Property(e => e.TransactionDate).HasColumnType("datetime2(0)");
 
                 entity.Property(e => e.TransactionStatus)
                     .HasMaxLength(20)
@@ -64,7 +64,7 @@ namespace AccountMS.Models
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.ValueDate).HasColumnType("date");
+                entity.Property(e => e.ValueDate).HasColumnType("datetime2(0)");
             });
 
             modelBuilder.Entity<AccountStatus>(entity =>
